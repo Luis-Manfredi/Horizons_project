@@ -125,7 +125,13 @@ ion-icon {
   background-color: #caf0f8;
 }
 
-@media (max-width: 575.98px) {
+@media screen and (max-width: 360px) {
+  body{
+      min-width: 100%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 575.98px) {
   p {
     font-size: 0.75em;
   }
@@ -143,15 +149,18 @@ ion-icon {
     display: flex;
     position: relative;
   }
+  .index{
+    flex-direction: column;
+  }
   .bar {
     opacity: 0;
   }
   .btn-custom2 {
-    background-color: #fff;
+    background-color: #fff !important;
     color: #03045e !important;
   }
   .btn-custom2:hover {
-    background-color: #00b4d8;
+    background-color: #00b4d8 !important;
   }
   #horizons {
     display: none;
@@ -166,7 +175,7 @@ ion-icon {
     margin-top: 1em;
   }
   .w-25 {
-    width: auto !important;
+    width: 100% !important;
   }
   .form-custom {
     margin-top: 2em;
@@ -182,7 +191,8 @@ ion-icon {
     margin-top: 0 !important;
   }
   .fixed-width {
-    width: 300px;
+    width: 300px !important;
+    margin: auto;
     margin-top: 2em;
   }
   .section {
@@ -208,7 +218,7 @@ ion-icon {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 575.98px) and (max-width: 767.98px) {
   p {
     font-size: 0.75em;
   }
@@ -230,11 +240,11 @@ ion-icon {
     opacity: 0;
   }
   .btn-custom2 {
-    background-color: #fff;
+    background-color: #fff !important;
     color: #03045e !important;
   }
   .btn-custom2:hover {
-    background-color: #00b4d8;
+    background-color: #00b4d8 !important;
   }
   #horizons {
     display: none;
@@ -291,7 +301,7 @@ ion-icon {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 767.98px) and (max-width: 991.98px) {
   p {
     font-size: 1em;
   }
@@ -310,11 +320,11 @@ ion-icon {
     opacity: 0;
   }
   .btn-custom2 {
-    background-color: #fff;
+    background-color: #fff !important;
     color: #03045e !important;
   }
   .btn-custom2:hover {
-    background-color: #00b4d8;
+    background-color: #00b4d8 !important;
   }
   #horizons {
     display: none;
