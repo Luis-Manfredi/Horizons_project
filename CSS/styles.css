@@ -182,7 +182,7 @@ ion-icon {
     padding: 1em;
   }
   .form-custom .btn-custom2 {
-    background-color: #03045e;
+    background-color: #03045e !important;
     color: #fff !important;
   }
   #services {
@@ -266,7 +266,7 @@ ion-icon {
     padding: 1em;
   }
   .form-custom .btn-custom2 {
-    background-color: #03045e;
+    background-color: #03045e !important;
     color: #fff !important;
   }
   #services {
@@ -346,7 +346,7 @@ ion-icon {
     padding: 1em;
   }
   .form-custom .btn-custom2 {
-    background-color: #03045e;
+    background-color: #03045e !important;
     color: #fff !important;
   }
   #services {
